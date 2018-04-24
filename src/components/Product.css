@@ -1,0 +1,88 @@
+/* Responsiveness of the content of the product: title, remaining items, and price of item */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .titleOfItem{
+        font-size:15px;
+        padding-top:10px;
+        color:#000000;
+    }
+    .remainingItem{
+        color:#939393; 
+        padding-top:5px;        
+        font-size:12px;
+    }
+    .priceOfItem{
+        font-size:15px;
+        padding-top:10px;                
+        padding-left:50px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .titleOfItem{
+        font-size:15px;
+        padding-top:10px;
+        color:#000000;
+    }
+    .remainingItem{
+        color:#939393; 
+        padding-top:5px;        
+        font-size:12px;
+    }
+    .priceOfItem{
+        font-size:15px;
+        padding-top:10px;                
+        padding-left:50px;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .titleOfItem{
+        font-size:15px;        
+        color:#000000;
+    }
+    .remainingItem{
+        color:#939393; 
+        font-size:15px;
+    }
+    .priceOfItem{
+        font-size:15px;        
+        padding-left:100px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .titleOfItem{
+        font-size:38px;        
+        color:#000000;
+    }
+    .remainingItem{
+        color:#939393; 
+        font-size:20px;
+    }
+    .priceOfItem{
+        font-size:21px;
+        padding-top:25px;    
+        padding-left:150px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .titleOfItem{
+        color:#000000;
+        font-size:38px;
+    }
+    .remainingItem{
+        color:#939393; 
+        font-size:20px;
+    }
+    .priceOfItem{
+        font-size:21px;
+        padding-top:25px;    
+        padding-left:200px;
+    }
+}

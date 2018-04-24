@@ -1,0 +1,9 @@
+/* Size of the image when the image is in the cart */
+.productCheckoutImage {
+    width:100px;
+    height:100px;
+}
+
+.cartTitle{
+    font-size: 50px;
+}

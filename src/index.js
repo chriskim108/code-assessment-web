@@ -7,6 +7,10 @@ import thunk from 'redux-thunk'
 import reducer from './reducers'
 import { getAllProducts } from './actions'
 import App from './containers/App'
+// Importing Bootstrap
+import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
+// Importing Font Awesome
+import 'font-awesome/css/font-awesome.min.css'; 
 
 const middleware = [ thunk ];
 if (process.env.NODE_ENV !== 'production') {
