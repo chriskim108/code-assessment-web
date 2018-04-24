@@ -23,7 +23,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
       </div>
     ) 
   ) : (
-    <em><i className="fa fa-shopping-cart"></i> Your cart is empty</em>
+    <em>Your cart is empty</em>
   )
   return (
     <div>
